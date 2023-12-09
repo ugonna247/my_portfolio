@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <div class="container">
+        <div class="port">
             <h1>Henry's Portfolio</h1>
         </div>
     </main>
@@ -17,21 +21,17 @@
             <img src="image/logo.jpg" alt="My Logo" height="100" width="200">
         </div>
             <nav>
-                <a href="#home">Home</a>
-                <br>
-                <a href="#about">About</a>
-                <br>
-                <a href="#work">Work</a>
-                <br>
-                <a href="#resume">Resume</a>
-                <br>
+                <a class="home-link" href="#home">Home</a>
+                <a class="about-link" href="#about">About</a>
+                <a class="work-link" href="#work">Work</a>
+                <a class="resume-link" href="#resume">Resume</a>
                 <a href="#contact">Contact</a>
         </nav>
         </div>
     </header>
     
     <section id="about">
-        <div class="container">
+        <div class="abt">
             <h2>About</h2>
             <p>Welcome to my portfolio, we specializes on HTML, CSS, JavaScript.</p>
             <img src="image/html.png" alt="my html photo" height="200" width="500">
@@ -42,11 +42,11 @@
         <div class="container">
         <h2>Work</h2>
         <p>I work on software development, creation of good website for your businesses, office website and more </p>
-        <p>For more information log onto <a href="https://gomyode.co">www.gomycode.co</a></p>
+        <p>For more information log onto <a href="https://learn.gomycode.co">www.gomycode.co</a></p>
     </section>
 
     <section id="resume">
-        <div class="container">
+        <div class="res">
             <h2>Resume</h2>
         </div>
         <article>
@@ -82,12 +82,17 @@
     </section>
 
     <section id="contact">
-        <div class="container">
+        <div class="cont">
         <h2>Contact</h2>
-        <form action="">
+        <form>
             <input type="text" placeholder="Name">
             <br>
+            <br>
             <input type="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="number" placeholder="Age">
+            <br>
             <br>
             <textarea placeholder="Message"></textarea>
             <br>
@@ -96,7 +101,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer-part">
         <p>&copy; 2023 Henry's Portfolio | All Right Reserved</p>
     </footer>
 </body>

@@ -1,0 +1,76 @@
+nav a {
+    display: inline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.port {
+    color: black;
+}
+
+.container {
+    color: rebeccapurple;
+}
+
+.cont {
+    color: white;
+}
+
+.abt + p {
+    color: darkmagenta;
+}
+
+#about {
+    background-color: white;
+}
+#work h2 {
+    color: honeydew;
+}
+
+#work p {
+    color: white;
+}
+
+#work {
+    background-color: darkseagreen;
+}
+
+#contact {
+    background-color: dodgerblue;
+}
+
+#resume {
+    background-color: darkorange;
+}
+
+.footer-part {
+    background-color: black;
+}
+
+.footer-part p {
+    color: whitesmoke;
+}
+
+.home-link:hover {
+    color: deeppink;
+    font-size: 40px;
+}
+
+.about-link:hover {
+    color: khaki;
+    font-size: 40px;
+}
+
+.work-link:visited {
+    color: blue;
+    font-size: 40px;
+}
+
+.resume-link:link {
+    color: olive;
+}
